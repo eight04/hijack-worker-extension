@@ -1,0 +1,31 @@
+{
+	"manifest_version": 2,
+	"version": "0.7.0",
+	"name": "Hijack Worker",
+	"description": "__MSG_extensionDescription__",
+	"author": "eight",
+	"homepage_url": "https://github.com/eight04/hijack-worker-extension",
+	"applications": {
+		"gecko": {
+			"id": "hijac-worker-extension@eight04.blogspot.com"
+		}
+	},
+	"permissions": [
+		"storage",
+    "webRequest",
+    "webRequestBlocking",
+		"<all_urls>"
+	],
+	"background": {
+		"scripts": [
+			"lib/pref.js",
+			"background/background.js"
+		]
+	},
+	"options_ui": {
+		"page": "options/dist/options.html",
+		"browser_style": true
+	},
+	"default_locale": "en",
+  "web_accessible_resources": ["public/*"]
+}

@@ -1,0 +1,27 @@
+{
+	"extensionDescription": {
+		"message": "Hijack web workers in the browser to stop coin miner.",
+		"description": "Description of the extension"
+	},
+  "optionTitle": {
+    "message": "Settings for different match patterns",
+    "description": "Title of option page"
+  },
+  "optionMatchPatternLabelHTML": {
+    "message": "Match pattern. (Seperated with $SEPARATOR$)",
+    "description": "Label of match pattern in option page",
+    "placeholders": {
+      "separator": {
+        "content": "<code>;</code>"
+      }
+    }
+  },
+  "optionWhitelistLabel": {
+    "message": "Allowed URLs. RegExp per line.",
+    "description": "Label of whitelist in option page"
+  },
+  "optionBlacklistLabel": {
+    "message": "Restricted URLs. RegExp per line.",
+    "description": "Label of blacklist in option page"
+  }
+}
